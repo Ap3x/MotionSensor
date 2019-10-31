@@ -23,11 +23,8 @@ void loop() {
     // report it out, if the state has changed
     reportTheData();
     
-  
     }
-      
 }
-/*********************************************************************************/
 void readTheSensor() {
     val = digitalRead(inputPin);
 }
@@ -59,4 +56,3 @@ if (val == HIGH) {
 
 }
 }
-/******************************************************************************/
